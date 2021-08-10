@@ -1,15 +1,3 @@
-// 1. Para la app para dibujar estaba pensando en utilizar p5js pero esto no sería utilizar Vanilla JS como les dije esta no debe tener librerías
-// externas. Necesitamos declarar el contexto del canvas y el canvas para definir si será 2d. Ahora vamos a dibujar un circulo con canvas. Para
-// ver de que manera dibujaremos dentro de canvas, El elemento canvas de HTML será nuestro lienzo. Bueno ahora quiero tomar la posición del mouse
-// en el canvas para esto vamos a poner un console log para ver que atributos debemos tomar. Offset x y offset Y. Listo ya hemos acabado la app (broma)
-//Vamos a ver si podemos poner mediante el event mousemove que realice el dibujo bien pero como ven no estoy apretando el click del mouse.
-
-// 2. Ahora quiero que cuando yo de click pueda dibujar y cuando no pues no lo haga entonces vamos a declarar en el evento mousedown. Con esto
-// me estoy acercando al objetivo
-//Lo que queremos hacer ahora es unificar a los circulos porque se ven un poco raro
-// Ahora para poder incrementar el tamaño o reducir el tamaño del circulo que se vaya dibujando
-// Ahora vamos a tomar el color.
-
 const canvas = document.getElementById("canvas"); // 1
 const increaseBtn = document.getElementById("increase");
 const decreaseBtn = document.getElementById("decrease");
